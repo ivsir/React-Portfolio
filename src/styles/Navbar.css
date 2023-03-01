@@ -1,0 +1,52 @@
+body {
+  background-color: blue;
+}
+
+.header {
+  font-family: 'Varela Round', sans-serif;
+
+  overflow: hidden;
+  background-image: url("../images/banner.jpeg");
+  /* background: rgb(176,176,176); */
+  display: flex;
+  flex-direction: column;
+  /* height: 25vh; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 4rem;
+  color: gainsboro;
+  margin: auto;
+  /* text-align: center; */
+}
+
+.nav {
+  align-items: center;
+}
+
+.nav a {
+  font-size: 1.9rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
+
+.nav-item {
+  /* max-width: 50%; */
+  font-size: 60px;
+  color: rgb(166, 248, 239);
+}
+
+.nav-item:hover {
+  color: blue; /*will change color of text within the element on hover */
+  /* border:  !important; */
+}
+
+.nav-active {
+  height: 100vh;
+  color: white;
+}
+
