@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.b9c4d821.css",
+    "main.js": "/React-Portfolio/static/js/main.6aa22376.js",
+    "static/media/profile2.jpg": "/React-Portfolio/static/media/profile2.fe05375cb2e7e66f145f.jpg",
+    "static/media/Stift-Admont-Austria.jpeg": "/React-Portfolio/static/media/Stift-Admont-Austria.540c6ff23da7e6e2260e.jpeg",
+    "static/media/banner.jpeg": "/React-Portfolio/static/media/banner.a06e1608b07a0719dffb.jpeg",
+    "static/media/wine.jpeg": "/React-Portfolio/static/media/wine.aa2a6dde34af417ec288.jpeg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.b9c4d821.css.map": "/React-Portfolio/static/css/main.b9c4d821.css.map",
+    "main.6aa22376.js.map": "/React-Portfolio/static/js/main.6aa22376.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9c4d821.css",
+    "static/js/main.6aa22376.js"
+  ]
+}
