@@ -22,14 +22,6 @@ footer {
   text-align: center;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  overflow: hidden;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-}
 
 .justify-center {
   justify-content: center;
@@ -37,19 +29,19 @@ footer {
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 .row img {
   flex-shrink: 0;
-  /* object-fit: cover; */
 }
 
 .card-column {
   flex: 1 0 100%;
   padding: 1.5rem;
-  /* when the screen resizes, make it so our columns don't jump in size */
-
   margin-bottom: 1.5rem;
+  height: 33%;
+
 }
 
 .code-card {
@@ -57,6 +49,7 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   border: none;
+  margin-bottom: 5px;
 }
 
 .code-card:hover,
@@ -100,7 +93,7 @@ figure:hover img {
 }
 
 img {
-  height: fit-content;
+
 }
 
 @supports not (-webkit-mask-clip: text) {

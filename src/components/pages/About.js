@@ -35,8 +35,8 @@ export default function About() {
         </div>
       </section>
       <footer>
-        <img class="logo" id="githubLogo" src={github} />
-        <img class="logo" id="linkedinLogo" src={linkedin} />
+        <a href="https://github.com/ivsir"><img class="logo" id="githubLogo" src={github} /></a>
+        <a href="https://www.linkedin.com/in/risvi-tareq-1546621ab/"><img class="logo" id="linkedinLogo" src={linkedin} /></a>
       </footer>
     </main>
     </div>

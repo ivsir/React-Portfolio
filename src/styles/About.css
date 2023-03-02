@@ -2,7 +2,7 @@
 #profilePic {
   width: 30%;
   height: 80%;
-  padding: 5px;
+  padding: 1px;
   background-color: black;
   margin-bottom: 20px;
   
@@ -10,6 +10,7 @@
 section {
   width: 100%;
   margin: 2rem;
+  align-items: center;
 }
 
 .details {
@@ -31,5 +32,32 @@ section {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
+  min-width: 425px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* on tablets, set columns to only be 50% of the width and not grow */
+  .card-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has space to grow */
+  .card-column:last-child {
+    flex-grow: 1;
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  header {
+    width: 75%;
+  }
+
+  .card-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }

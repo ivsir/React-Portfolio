@@ -1,23 +1,37 @@
-import React from 'react';
+import React from "react";
+import resume from "../../images/Risvi Resume.pdf";
 
 export default function Resume() {
   return (
     <div>
       <main>
-      <h1>Resume Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </main>
+        <h1>Resume Page</h1>
+        <div>
+          <h2>
+            Junior Full Stack Web Developer/B.A. In Earth System Science and
+            Policy
+          </h2>
+          <h3>Skills</h3>
+          <ul>
+            <li>Fullstack Web Development</li>
+            <li>JavaScript Libraries</li>
+            <li>Integration of Third-Party APIs</li>
+            <li>MERN (MySQL, Express, Node, MongoDB)</li>
+            <li>Creating RESTful APIs</li>{" "}
+          </ul>
+          <h3>Work Experience</h3>
+          <div>
+            <h4>Clear Blue Sea Volunteer</h4>
+            <h5>FEBRUARY 2023 - PRESENT</h5>
+            <p>
+              Maintain and add features to the website using HTML and Wordpress
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h3>Download <a href={resume}>Resume</a></h3>
+      </footer>
     </div>
   );
 }
