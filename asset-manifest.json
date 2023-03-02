@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b9c4d821.css",
-    "main.js": "/React-Portfolio/static/js/main.6aa22376.js",
+    "main.css": "/React-Portfolio/static/css/main.30e69b9b.css",
+    "main.js": "/React-Portfolio/static/js/main.e11911af.js",
+    "static/media/cybe.jpeg": "/React-Portfolio/static/media/cybe.3db1c3fa6042def64dd3.jpeg",
     "static/media/profile2.jpg": "/React-Portfolio/static/media/profile2.fe05375cb2e7e66f145f.jpg",
-    "static/media/Stift-Admont-Austria.jpeg": "/React-Portfolio/static/media/Stift-Admont-Austria.540c6ff23da7e6e2260e.jpeg",
+    "static/media/cyberbar.jpeg": "/React-Portfolio/static/media/cyberbar.e4ed5b3bf6040e65ffc3.jpeg",
+    "static/media/texteditor.jpeg": "/React-Portfolio/static/media/texteditor.55fd1c19f4fbf0598376.jpeg",
+    "static/media/socialmedia.jpeg": "/React-Portfolio/static/media/socialmedia.fd8c538f5d8568866667.jpeg",
+    "static/media/cyberpunk.jpeg": "/React-Portfolio/static/media/cyberpunk.f2a74f20aa0fd7cc5182.jpeg",
+    "static/media/tech.jpeg": "/React-Portfolio/static/media/tech.53796e8bbe3a6ddcc0b6.jpeg",
     "static/media/banner.jpeg": "/React-Portfolio/static/media/banner.a06e1608b07a0719dffb.jpeg",
-    "static/media/wine.jpeg": "/React-Portfolio/static/media/wine.aa2a6dde34af417ec288.jpeg",
+    "static/media/Risvi Resume.pdf": "/React-Portfolio/static/media/Risvi Resume.2607595e12cda072e8a2.pdf",
     "index.html": "/React-Portfolio/index.html",
-    "main.b9c4d821.css.map": "/React-Portfolio/static/css/main.b9c4d821.css.map",
-    "main.6aa22376.js.map": "/React-Portfolio/static/js/main.6aa22376.js.map"
+    "main.30e69b9b.css.map": "/React-Portfolio/static/css/main.30e69b9b.css.map",
+    "main.e11911af.js.map": "/React-Portfolio/static/js/main.e11911af.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c4d821.css",
-    "static/js/main.6aa22376.js"
+    "static/css/main.30e69b9b.css",
+    "static/js/main.e11911af.js"
   ]
 }
