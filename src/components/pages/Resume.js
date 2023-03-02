@@ -30,7 +30,7 @@ export default function Resume() {
         </div>
       </main>
       <footer>
-        <h3>Download <a href={resume}>Resume</a></h3>
+        <h3>Download Full Resume <a href={resume}>Here</a> !!</h3>
       </footer>
     </div>
   );

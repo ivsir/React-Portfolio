@@ -50,6 +50,7 @@ img {
   justify-content: flex-start;
   border: none;
   margin-bottom: 5px;
+  background-color: #000;
 }
 
 .code-card:hover,

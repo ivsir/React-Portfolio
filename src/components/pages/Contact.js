@@ -50,7 +50,7 @@ function Form() {
   return (
     <div>
       <main>
-        <p>Hello {name}</p>
+        <h1>Hello {name}</h1>
         <form className="form">
           <input
             value={email}
