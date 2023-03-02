@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.e9ec2df7.css",
+    "main.js": "/my-app/static/js/main.1cfffb7f.js",
+    "static/media/profile2.jpg": "/my-app/static/media/profile2.fe05375cb2e7e66f145f.jpg",
+    "static/media/Stift-Admont-Austria.jpeg": "/my-app/static/media/Stift-Admont-Austria.540c6ff23da7e6e2260e.jpeg",
+    "static/media/banner.jpeg": "/my-app/static/media/banner.a06e1608b07a0719dffb.jpeg",
+    "static/media/wine.jpeg": "/my-app/static/media/wine.aa2a6dde34af417ec288.jpeg",
+    "index.html": "/my-app/index.html",
+    "main.e9ec2df7.css.map": "/my-app/static/css/main.e9ec2df7.css.map",
+    "main.1cfffb7f.js.map": "/my-app/static/js/main.1cfffb7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9ec2df7.css",
+    "static/js/main.1cfffb7f.js"
+  ]
+}
