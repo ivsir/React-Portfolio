@@ -1,4 +1,6 @@
 import React from "react";
+import libraryImage from "../../images/Stift-Admont-Austria.jpeg"
+import wineImage from "../../images/wine.jpeg"
 
 export default function Portfolio() {
   return (
@@ -10,51 +12,69 @@ export default function Portfolio() {
 
         <section class="row justify-center">
           <div class="card-column">
-            <figure class="card code-card">
-            <img src="https://picsum.photos/id/287/250/300" alt="Mountains"/>
-    <figcaption>The Day</figcaption>
-            </figure>
+            <a href="https://bibliomania.herokuapp.com/">
+              <figure class="card code-card">
+                <img
+                  src= {libraryImage}
+                  alt="Bibliomania App"
+                />
+                <figcaption>Bibliomania</figcaption>
+              </figure>
+            </a>
           </div>
           <div class="card-column">
-            <figure class="card code-card">
-            <img src="https://picsum.photos/id/475/250/300" alt="Mountains"/>
-    <figcaption>The Night</figcaption>
-            </figure>
-          </div>
-
-          <div class="card-column">
-            <figure class="card code-card">
-
-            </figure>
-          </div>
-          <div class="card-column">
-            <figure class="card code-card">
-
-            </figure>
-          </div>
-          <div class="card-column">
-            <figure class="card code-card">
-
-            </figure>
+            <a href="https://agarfar.github.io/a-night-in/">
+              <figure class="card code-card">
+                <img
+                  src={wineImage}
+                  alt="A Night In App"
+                />
+                <figcaption>A Night In</figcaption>
+              </figure>
+            </a>
           </div>
 
           <div class="card-column">
             <figure class="card code-card">
+            <img
+                  src={wineImage}
+                  alt="A Night In App"
+                />
+                <figcaption>A Night In</figcaption>
+            </figure>
+          </div>
+          <div class="card-column">
+            <figure class="card code-card">
+            <img
+                  src={wineImage}
+                  alt="A Night In App"
+                />
+                <figcaption>A Night In</figcaption>
+            </figure>
+          </div>
+          <div class="card-column">
+            <figure class="card code-card">
+            <img
+                  src={wineImage}
+                  alt="A Night In App"
+                />
+                <figcaption>A Night In</figcaption>
+            </figure>
+          </div>
 
+          <div class="card-column">
+            <figure class="card code-card">
+            <img
+                  src={wineImage}
+                  alt="A Night In App"
+                />
+                <figcaption>A Night In</figcaption>
             </figure>
           </div>
         </section>
       </main>
 
-      <footer>
-        <h3>
-          Made with{" "}
-          <span role="img" aria-label="heart">
-            ❤️
-          </span>{" "}
-          and CSS
-        </h3>
-      </footer>
+
     </div>
   );
 }

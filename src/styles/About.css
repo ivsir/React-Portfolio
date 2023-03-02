@@ -1,13 +1,35 @@
-body {
-  background: dimgray !important;
+
+#profilePic {
+  width: 30%;
+  height: 80%;
+  padding: 5px;
+  background-color: black;
+  margin-bottom: 20px;
+  
 }
-.form {
-  margin: 20px;
+section {
+  width: 100%;
+  margin: 2rem;
 }
 
-.form input {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%;
+.details {
+  /* margin: 2rem;
+  padding: 0.5rem; */
+}
+
+#githubLogo {
+  width: 10%
+  
+}
+#linkedinLogo {
+  width: 11%
+  
+}
+
+.logo {
+  margin: 25px;
+}
+
+p {
+  font-size: 25px;
 }

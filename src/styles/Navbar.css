@@ -3,23 +3,25 @@ body {
 }
 
 .header {
-  font-family: 'Varela Round', sans-serif;
-
-  overflow: hidden;
-  background-image: url("../images/banner.jpeg");
-  /* background: rgb(176,176,176); */
   display: flex;
-  flex-direction: column;
-  /* height: 25vh; */
   justify-content: space-between;
+  font-family: 'Varela Round', sans-serif;
   align-items: center;
+  padding: 1%;
+
+  background-image: url("../images/banner.jpeg");
+
 }
 
 .name {
-  font-size: 4rem;
+
+
   color: gainsboro;
-  margin: auto;
-  /* text-align: center; */
+
+}
+nav ul {
+  display: flex;
+  min-width: 300px;
 }
 
 .nav {
@@ -32,21 +34,24 @@ body {
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+  overflow: hidden;
 }
 
 .nav-item {
   /* max-width: 50%; */
   font-size: 60px;
-  color: rgb(166, 248, 239);
+  padding: 5px;
+  margin: 5px;
 }
 
 .nav-item:hover {
-  color: blue; /*will change color of text within the element on hover */
-  /* border:  !important; */
+  text-shadow: 1px 1px 2px rgb(236, 236, 236), 0 0 1em rgb(166, 166, 212), 0 0 0.2em blue;
 }
 
 .nav-active {
-  height: 100vh;
   color: white;
 }
 
+.nav-tabs {
+  border-bottom: none !important;
+}
