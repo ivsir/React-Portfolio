@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .header {
@@ -8,14 +8,14 @@ body {
   font-family: 'Varela Round', sans-serif;
   align-items: center;
   padding: 1%;
-
-  background-image: url("../images/banner.jpeg");
+background-color: rgb(18, 13, 13);
+  /* background-image: url("../images/banner.jpeg"); */
 
 }
 
 .name {
 
-
+font-size: 30px;
   color: gainsboro;
 
 }

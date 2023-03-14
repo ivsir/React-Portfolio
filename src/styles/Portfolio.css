@@ -3,13 +3,23 @@
   --outer-space: #33393f;
   --bright-turquoise: #2aefcb;
   --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --heliotrope: #fbfbfb;
 }
 
 /* set content highlight color and background */
 ::selection {
   background-color: var(--bright-turquoise);
   color: var(--outer-space);
+}
+
+a {
+  text-decoration: none !important ;
+  color: white !important;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Varela Round", sans-serif;
 }
 
 main {
@@ -22,7 +32,6 @@ footer {
   text-align: center;
 }
 
-
 .justify-center {
   justify-content: center;
 }
@@ -30,6 +39,22 @@ footer {
 img {
   width: 100%;
   object-fit: cover;
+  opacity: 90%;
+  /* padding: 5px; */
+}
+.portfolio-image {
+  height: 300px;
+  opacity: 80%;
+  border-radius: 10px;
+}
+.portfolio-image:hover {
+  /* opacity: 50%; */
+  /* border: 10px solid #000000; */
+  overflow: hidden;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
 }
 
 .row img {
@@ -38,70 +63,52 @@ img {
 
 .card-column {
   flex: 1 0 100%;
-  padding: 1.5rem;
+  padding: 1.5rem !important;
   margin-bottom: 1.5rem;
+  margin: auto;
   height: 33%;
-
+  border-radius: 2px;
+  position: relative;
 }
 
-.code-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border: none;
-  margin-bottom: 5px;
-  background-color: #000;
+.card-title {
+  position: absolute;
+  color: azure;
+
+  background: rgba(0, 0, 0, 0.5);
+  width: 55%;
+  margin-top: -68px;
+  min-height: auto;
+  padding: 10px;
+  bottom: 60px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  font-family: "Varela Round", sans-serif;
 }
 
-.code-card:hover,
+.card-title:hover {
+  /* opacity: 0.8; */
+
+  background: rgba(0, 0, 0, 0.25);
+}
+/* .card-title:hover,
 .code-card:hover .card-header {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+} */
+
+#github {
+  width: 22%;
+  margin: 5px;
 }
 
-figure {
-  display: grid;
-  border-radius: 1rem;
-  overflow: hidden;
-  cursor: pointer;
+.gitLink:hover {
+  /* text-shadow: 1px 1px 2px rgb(236, 236, 236), 0 0 1em rgb(166, 166, 212), 0 0 0.2em rgb(82, 82, 84) !important; */
+  -webkit-filter: drop-shadow(5px 5px 5px #a39f9f);
+  filter: drop-shadow(3px 3px 3px #3387bc) !important;
 }
-
-figure > * {
-  grid-area: 1/1;
-  transition: 0.4s;
-}
-
-figure figcaption {
-  text-decoration: none;
-  display: grid;
-  align-items: end;
-  font-family: sans-serif;
-  font-size: 2.3rem;
-  font-weight: bold;
-  color: #0000;
-  padding: 0.75rem;
-  background: var(--c, #0009);
-  clip-path: inset(0 var(--_i, 100%) 0 0);
-  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  -webkit-mask-clip: text, padding-box;
-}
-figure:hover figcaption {
-  --_i: 0%;
-}
-figure:hover img {
-  transform: scale(1.2);
-  opacity: 0.25;
-}
-
-img {
-
-}
-
-@supports not (-webkit-mask-clip: text) {
-  figure figcaption {
-    -webkit-mask: none;
-    color: #fff;
-  }
+.card-logo:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #a39f9f);
+  filter: drop-shadow(5px 5px 5px #3387bc);
 }
 
 @media screen and (min-width: 768px) {

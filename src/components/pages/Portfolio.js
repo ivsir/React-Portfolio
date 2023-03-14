@@ -5,68 +5,135 @@ import socialmedia from "../../images/socialmedia.jpeg";
 import editor from "../../images/texteditor.jpeg";
 import tech from "../../images/tech.jpeg";
 import cyberpunk from "../../images/cyberpunk.jpeg";
+import github from "../../images/githublogo.png";
+import linkedin from "../../images/linkedin.png";
 
 export default function Portfolio() {
   return (
-    <div>
-      <main>
-        <header>
-          <h1 class="page-title">Portfolio Page</h1>
-        </header>
+    <main>
+      <section class="row justify-center">
+        <div class="card-column">
+          <img src={libraryImage} class="portfolio-image" alt="library" />{" "}
+          <div>
+            <h2 class="card-title">
+              <a class="gitLink" href="https://bibliomania.herokuapp.com/">
+                Bibliomania
+              </a>
+              <a href="https://github.com/DallasSybrowsky/Bibliomania">
+                {" "}
+                <img
+                  class="card-logo"
+                  id="github"
+                  src={github}
+                  alt="github logo"
+                />{" "}
+              </a>
+            </h2>
+          </div>
+        </div>
+        <div class="card-column">
+          <img src={cyberbar} class="portfolio-image" alt="wine" />
 
-        <section class="row justify-center">
-          <div class="card-column">
-            <a href="https://bibliomania.herokuapp.com/">
-              <figure class="card code-card">
-                <img src={libraryImage} alt="library" />
-                <figcaption>Bibliomania</figcaption>
-              </figure>
-            </a>
+          <div>
+            <h2 class="card-title">
+              <a class="gitLink" href="https://agarfar.github.io/a-night-in/">
+                {" "}
+                A Night In
+              </a>
+              <a href="https://github.com/agarfar/a-night-in">
+                {" "}
+                <img
+                  class="card-logo"
+                  id="github"
+                  src={github}
+                  alt="github logo"
+                />{" "}
+              </a>
+            </h2>
           </div>
-          <div class="card-column">
-            <a href="https://agarfar.github.io/a-night-in/">
-              <figure class="card code-card">
-                <img src={cyberbar} alt="wine" />
-                <figcaption>A Night In</figcaption>
-              </figure>
-            </a>
-          </div>
+        </div>
 
-          <div class="card-column">
-            <a href="https://github.com/ivsir/Social-Network-API">
-              <figure class="card code-card">
-                <img src={socialmedia} alt="tokyo" />
-                <figcaption>Social Media API</figcaption>
-              </figure>
-            </a>
+        <div class="card-column">
+          <img src={socialmedia} class="portfolio-image" alt="tokyo" />
+          <div>
+            <h2 class="card-title">
+              <a
+                class="gitLink"
+                href="https://github.com/ivsir/Social-Network-API"
+              >
+                Social Media API{" "}
+              </a>
+              <a href="https://github.com/ivsir/Social-Network-API">
+                {" "}
+                <img
+                  class="card-logo"
+                  id="github"
+                  src={github}
+                  alt="github logo"
+                />{" "}
+              </a>
+            </h2>
           </div>
-          <div class="card-column">
-            <a href="https://github.com/ivsir/Text-Editor">
-              <figure class="card code-card">
-                <img src={editor} alt="Old Book called the scribe" />
-                <figcaption>Text Editor</figcaption>
-              </figure>
-            </a>
+        </div>
+        <div class="card-column">
+          <img
+            src={editor}
+            class="portfolio-image"
+            alt="Old Book called the scribe"
+          />
+          <div>
+            <h2 class="card-title">
+              <a class="gitLink" href="https://still-meadow-30378.herokuapp.com/">
+                Text Editor{" "}
+              </a>
+              <a href="https://github.com/ivsir/Text-Editor">
+                {" "}
+                <img
+                  class="card-logo"
+                  id="github"
+                  src={github}
+                  alt="github logo"
+                />
+              </a>
+            </h2>
           </div>
-          <div class="card-column">
-            <a href="https://github.com/ivsir/Tech-Blog">
-              <figure class="card code-card">
-                <img src={tech} alt="Company Meeting" />
-                <figcaption>Tech Blog</figcaption>
-              </figure>
-            </a>
+        </div>
+        <div class="card-column">
+          <img src={tech} class="portfolio-image" alt="Company Meeting" />
+          <div>
+            <h2 class="card-title">
+              <a class="gitLink" href="https://github.com/ivsir/Tech-Blog">
+                Tech Blog
+              </a>{" "}
+              <img
+                class="card-logo"
+                id="github"
+                src={github}
+                alt="github logo"
+              />
+            </h2>
           </div>
+        </div>
 
-          <div class="card-column">
-            <a href="https://github.com/ivsir/React-Portfolio">
-              <figure class="card code-card">
-                <img src={cyberpunk} alt="Cyberpunk" />
-                <figcaption>React Portfolio</figcaption>
-              </figure>
-            </a>
+        <div class="card-column">
+          <img src={cyberpunk} class="portfolio-image" alt="Cyberpunk" />
+          <div>
+            <h2 class="card-title">
+              <a class="gitLink" href="https://damp-island-88547.herokuapp.com/">
+                React Portfolio{" "}
+              </a>
+              <a href="https://github.com/ivsir/React-Portfolio">
+                <img
+                  class="card-logo"
+                  id="github"
+                  src={github}
+                  alt="github logo"
+                />
+              </a>
+            </h2>
           </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
   );
 }

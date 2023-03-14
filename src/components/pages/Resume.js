@@ -5,7 +5,6 @@ export default function Resume() {
   return (
     <div>
       <main>
-        <h1>Resume Page</h1>
         <div>
           <h2>
             Junior Full Stack Web Developer/B.A. In Earth System Science and
