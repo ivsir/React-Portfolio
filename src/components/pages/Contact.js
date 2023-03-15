@@ -50,37 +50,43 @@ function Form() {
   return (
     <div>
       <main>
-        <h1>Hello {name}</h1>
+        <h1 id="guestName">Hello {name}. Enter your contact information below.</h1>
         <form className="form">
           <input
+            id="email"
+            class="formBox"
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="email"
+            placeholder="Email"
           />
 
           <input
+            id="name"
+            class="formBox"
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
-            placeholder="name"
+            placeholder="Name"
           />
           <input
+            id="message"
+            class="formBox"
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Message"
           />
-          <button type="button" onClick={handleFormSubmit}>
+          <button id="submit" type="button" onClick={handleFormSubmit}>
             Submit
           </button>
         </form>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p id ="error" className="error-text">{errorMessage}</p>
           </div>
         )}
       </main>

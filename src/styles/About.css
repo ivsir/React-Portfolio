@@ -9,7 +9,8 @@
   display: flex;
 justify-content: flex-start;
 font-family: 'Varela Round', sans-serif;
-
+inline-size: 100%;
+overflow-wrap: break-word;
 }
 
 section {
@@ -19,6 +20,7 @@ section {
 }
 
 .details {
+  font-size: 34px;
   /* margin: 2rem;
   padding: 0.5rem; */
 }

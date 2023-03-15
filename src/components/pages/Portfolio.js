@@ -6,7 +6,6 @@ import editor from "../../images/texteditor.jpeg";
 import tech from "../../images/tech.jpeg";
 import cyberpunk from "../../images/cyberpunk.jpeg";
 import github from "../../images/githublogo.png";
-import linkedin from "../../images/linkedin.png";
 
 export default function Portfolio() {
   return (
@@ -119,7 +118,7 @@ export default function Portfolio() {
           <img src={cyberpunk} class="portfolio-image" alt="Cyberpunk" />
           <div>
             <h2 class="card-title">
-              <a class="gitLink" href="https://damp-island-88547.herokuapp.com/">
+              <a class="gitLink" href="https://ivsir.github.io/React-Portfolio/">
                 React Portfolio{" "}
               </a>
               <a href="https://github.com/ivsir/React-Portfolio">

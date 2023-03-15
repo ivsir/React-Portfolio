@@ -1,11 +1,13 @@
 import React from "react";
 import resume from "../../images/Risvi Resume.pdf";
+import "../../styles/Resume.css";
+
 
 export default function Resume() {
   return (
     <div>
       <main>
-        <div>
+        <div id="resume">
           <h2>
             Junior Full Stack Web Developer/B.A. In Earth System Science and
             Policy
