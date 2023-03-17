@@ -15,7 +15,7 @@ export default function About() {
                 <img
                   id="profilePic"
                   src={profilePic}
-                  alt="picture of me at the beach"
+                  alt="me at the beach"
                 />
               <p class="about-body">
                 {" "}
@@ -44,13 +44,13 @@ export default function About() {
           </section>
           <footer>
             <a class="gitLink" href="https://github.com/ivsir">
-              <img class="logo" id="githubLogo" src={github} />
+              <img class="logo" alt="github-logo" id="githubLogo" src={github} />
             </a>
             <a
               class="gitLink"
               href="https://www.linkedin.com/in/risvi-tareq-1546621ab/"
             >
-              <img class="logo" id="linkedinLogo" src={linkedin} />
+              <img class="logo" alt = "linkedin logo" id="linkedinLogo" src={linkedin} />
             </a>
           </footer>
         </main>
