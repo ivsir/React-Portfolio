@@ -17,8 +17,11 @@ export default function Resume() {
             <li>Fullstack Web Development</li>
             <li>JavaScript Libraries</li>
             <li>Integration of Third-Party APIs</li>
-            <li>MERN (MySQL, Express, Node, MongoDB)</li>
+            <li>MySQL</li>
+            <li>NoSQL</li>
+            <li>MERN (MongoDB, Express, React and Node.js)</li>
             <li>Creating RESTful APIs</li>{" "}
+            <li>Incorporating service workers into web applications</li>{" "}
           </ul>
           <h3>Work Experience</h3>
           <div>
