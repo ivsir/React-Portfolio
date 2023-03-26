@@ -43,7 +43,6 @@ img {
   width: 100%;
   object-fit: cover;
   opacity: 90%;
-  /* padding: 5px; */
 }
 .portfolio-image {
   height: 300px;
@@ -51,8 +50,6 @@ img {
   border-radius: 10px;
 }
 .portfolio-image:hover {
-  /* opacity: 50%; */
-  /* border: 10px solid #000000; */
   overflow: hidden;
 }
 
@@ -71,18 +68,12 @@ img {
   margin: auto;
   height: 33%;
   border-radius: 2px;
-  /* position: relative; */
-  /* height: 40vh; */
-  /* margin-bottom: 5px; */
 }
 
 .wrapper {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* justify-items: center; */
   align-items: center;
   position: relative;
-  /* height: 100vh; */
 }
 .card-title {
   position: absolute;
@@ -102,24 +93,17 @@ img {
 }
 
 .card-title:hover {
-  /* opacity: 0.8; */
-
   background: rgba(0, 0, 0, 0.25);
 }
-/* .card-title:hover,
-.code-card:hover .card-header {
-  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-} */
+
 
 #github {
   width: 18%;
   margin: 5px;
   max-height: 33%;
-  /* position: relative; */
 }
 
 .gitLink:hover {
-  /* text-shadow: 1px 1px 2px rgb(236, 236, 236), 0 0 1em rgb(166, 166, 212), 0 0 0.2em rgb(82, 82, 84) !important; */
   -webkit-filter: drop-shadow(5px 5px 5px #a39f9f);
   filter: drop-shadow(3px 3px 3px #3387bc) !important;
 }
@@ -127,22 +111,12 @@ img {
   -webkit-filter: drop-shadow(5px 5px 5px #a39f9f);
   filter: drop-shadow(5px 5px 5px #3387bc);
 }
-/* break */
 
-/* break */
 @media screen and (max-width: 768px) {
-  /* on tablets, set columns to only be 50% of the width and not grow */
   .card-column {
     flex: 0 0 100%;
 
     max-width: 50%;
-    /* height: 60vw; */
-  }
-  
-  
-  /* select the last child to grow to full width if it has space to grow */
-  .card-column:last-child {
-    /* flex-grow: 1; */
   }
 }
 @media screen and (min-width:375px) {
@@ -154,16 +128,8 @@ img {
 }
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
-  /* header {
-    width: 75%;
-  }
-  */
-  /* .wrapper {
-    width: 60vh !important;
-  }
-   */
+
   .card-column {
-    /* flex: 1 0 100%; */
     flex: 0 0 50%;
   }
 }
