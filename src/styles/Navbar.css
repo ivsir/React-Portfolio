@@ -2,46 +2,38 @@ body {
   /* background-color: blue; */
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
+.nav-wrapper{
+  align-items: center;
+}
+#big-wrapper{
   font-family: 'Varela Round', sans-serif;
-  align-items: center;
-  padding: 1%;
-background-color: rgb(18, 13, 13);
-  /* background-image: url("../images/banner.jpeg"); */
-
+  display:flex;
+  border-radius: 20px;
+  margin-top:10px;
+  justify-content: center;
+}
+.header {
+  max-width:60%;
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgb(18, 13, 13);
+  border-radius: 20px;
+  margin-top:10px;
+  
+}
+.nav-item{
+  display: inline-block;
 }
 
-.name {
-
-font-size: 30px;
-  color: gainsboro;
-
-}
-nav ul {
-  display: flex;
-  min-width: 300px;
-}
-
-.nav {
-  align-items: center;
-}
-
-.nav a {
-  font-size: 1.9rem;
-  padding: 1.5rem;
+.nav-bar a {
+  padding: 0 1.5rem;
   text-decoration: none;
-  margin: 5px;
   line-height: 3;
-  overflow: hidden;
 }
 
 .nav-item {
-  /* max-width: 50%; */
-  font-size: 60px;
+  list-style: none !important;
   padding: 5px;
-  margin: 5px;
+  font-size: 3vh;
 }
 
 .nav-item:hover {
@@ -54,4 +46,7 @@ nav ul {
 
 .nav-tabs {
   border-bottom: none !important;
+  text-decoration: none !important;
+  padding-right:0 !important;
+  margin: auto;
 }

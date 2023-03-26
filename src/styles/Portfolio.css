@@ -33,7 +33,10 @@ footer {
 }
 
 .justify-center {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -64,26 +67,38 @@ img {
 .card-column {
   flex: 1 0 100%;
   padding: 1.5rem !important;
-  margin-bottom: 1.5rem;
+  
   margin: auto;
   height: 33%;
   border-radius: 2px;
-  position: relative;
+  /* position: relative; */
+  /* height: 40vh; */
+  /* margin-bottom: 5px; */
 }
 
+.wrapper {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* justify-items: center; */
+  align-items: center;
+  position: relative;
+  /* height: 100vh; */
+}
 .card-title {
   position: absolute;
   color: azure;
-
   background: rgba(0, 0, 0, 0.5);
-  width: 55%;
-  margin-top: -68px;
   min-height: auto;
   padding: 10px;
   bottom: 60px;
+  font-size: 1.4rem;
   text-align: center;
   border-radius: 0 10px 10px 0;
   font-family: "Varela Round", sans-serif;
+  width: 50%;
+}
+
+#card-three {
 }
 
 .card-title:hover {
@@ -97,8 +112,10 @@ img {
 } */
 
 #github {
-  width: 22%;
+  width: 18%;
   margin: 5px;
+  max-height: 33%;
+  /* position: relative; */
 }
 
 .gitLink:hover {
@@ -110,28 +127,43 @@ img {
   -webkit-filter: drop-shadow(5px 5px 5px #a39f9f);
   filter: drop-shadow(5px 5px 5px #3387bc);
 }
+/* break */
 
-@media screen and (min-width: 768px) {
+/* break */
+@media screen and (max-width: 768px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
   .card-column {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
+    flex: 0 0 100%;
 
+    max-width: 50%;
+    /* height: 60vw; */
+  }
+  
+  
   /* select the last child to grow to full width if it has space to grow */
   .card-column:last-child {
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 }
+@media screen and (min-width:375px) {
+  .card-column{
+    flex: 0 0 100%;
 
+    max-width: 50%;
+  }
+}
 /* media query for larger screens */
 @media screen and (min-width: 992px) {
-  header {
+  /* header {
     width: 75%;
   }
-
+  */
+  /* .wrapper {
+    width: 60vh !important;
+  }
+   */
   .card-column {
+    /* flex: 1 0 100%; */
     flex: 0 0 50%;
-    max-width: 50%;
   }
 }
