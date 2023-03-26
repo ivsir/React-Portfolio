@@ -4,6 +4,7 @@ body {
 
 .nav-wrapper{
   align-items: center;
+  text-align: center;
 }
 #big-wrapper{
   font-family: 'Varela Round', sans-serif;
@@ -11,6 +12,7 @@ body {
   border-radius: 20px;
   margin-top:10px;
   justify-content: center;
+  
 }
 .header {
   max-width:60%;
