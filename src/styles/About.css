@@ -1,6 +1,6 @@
 #profilePic {
-  width: 20vw;
-  height: 60%;
+  width: 20rem;
+  /* height: 200px; */
   margin: 20px;
   margin-top: 0px !important;
   border-radius: 20px;
@@ -18,6 +18,7 @@
   padding: 2rem;
   border-radius: 2rem;
   opacity: 0.90;
+  font-size: larger;
 }
 
 section {
@@ -58,12 +59,16 @@ p {
 
 @media screen and (min-width: 360px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
+  #profile-pic{
+    
+    width: 40vw;
+  }
   #about-me {
     flex: 0 0 50%;
     /* max-width: 50%; */
-   
+    
   }
-
+  
   /* select the last child to grow to full width if it has space to grow */
   .card-column:last-child {
     flex-grow: 1;
@@ -76,7 +81,10 @@ p {
     flex: 0 0 50%;
     /* max-width: 50%; */
   }
-
+  #profile-pic{
+    
+    width: 40vw;
+  }
   /* select the last child to grow to full width if it has space to grow */
   .card-column:last-child {
     flex-grow: 1;
@@ -88,7 +96,10 @@ p {
   header {
     width: 75%;
   }
-
+  #profile-pic{
+    
+    width: 40vw;
+  }
   .card-column {
     flex: 0 0 50%;
     max-width: 50%;
