@@ -1,6 +1,6 @@
 {
-  "name": "React-Portfolio",
   "homepage": "https://ivsir.github.io/React-Portfolio/",
+  "name": "React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
