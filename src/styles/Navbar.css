@@ -5,6 +5,8 @@ body {
 .nav-wrapper{
   align-items: center;
   text-align: center;
+  z-index: 1000;
+  /* background-color: aliceblue; */
 }
 #big-wrapper{
   font-family: 'Varela Round', sans-serif;
@@ -15,9 +17,9 @@ body {
   
 }
 .header {
-  max-width:60%;
+  max-width:70%;
   font-family: 'Varela Round', sans-serif;
-  background-color: rgb(18, 13, 13);
+  background-color: rgb(14, 9, 28);
   border-radius: 20px;
   margin-top:10px;
   

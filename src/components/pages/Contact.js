@@ -48,47 +48,53 @@ function Form() {
   };
 
   return (
-    <div>
+    <div id="contact">
       <main>
-        <h1 id="guestName">Hello {name}. Enter your contact information below.</h1>
-        <form className="form">
-          <input
-            id="email"
-            class="formBox"
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="Email"
-          />
+        <div id="contact-wrapper">
+          <h1 id="guestName">
+            Hello {name}. Enter your contact information below.
+          </h1>
+          <form className="form">
+            <input
+              id="email"
+              class="formBox"
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="Email"
+            />
 
-          <input
-            id="name"
-            class="formBox"
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-          />
-          <input
-            id="message"
-            class="formBox"
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Message"
-          />
-          <button id="submit" type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
-        </form>
-        {errorMessage && (
-          <div>
-            <p id ="error" className="error-text">{errorMessage}</p>
-          </div>
-        )}
+            <input
+              id="name"
+              class="formBox"
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              id="message"
+              class="formBox"
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Message"
+            />
+            <button id="submit" type="button" onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </form>
+          {errorMessage && (
+            <div>
+              <p id="error" className="error-text">
+                {errorMessage}
+              </p>
+            </div>
+          )}
+        </div>
       </main>
     </div>
   );

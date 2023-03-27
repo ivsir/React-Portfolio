@@ -6,7 +6,8 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import "../styles/Container.css";
-import  "../styles/Portfolio.css"
+import "../styles/Portfolio.css";
+import Particle from "./pages/Particle";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -30,10 +31,18 @@ export default function PortfolioContainer() {
   return (
     <div className="App">
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-      <Footer />
+      <div>
+        {" "}
+        <NavTabs
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+          />
+        {/* Here we are calling the renderPage method which will return a component  */}
+          
+          <Particle/>
+        {renderPage()}
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import profilePic from "../../images/profile2.jpg";
 import github from "../../images/github-mark.png";
 import linkedin from "../../images/linkedin.png";
 import { Container } from "react-bootstrap";
+import Particle from "./Particle";
 
 import "../../styles/About.css";
 export default function About() {

@@ -3,18 +3,16 @@ import resume from "../../images/Risvi Resume.pdf";
 import resumeImage from "../../images/Risvi's Resume.png";
 import "../../styles/Resume.css";
 
-
 export default function Resume() {
   return (
-    <div>
+    <div id="resumePage">
       <main>
         <div id="resume">
-  <img src={resumeImage}/>
-          
+          <img src={resumeImage} />
         </div>
       </main>
       <footer>
-        <h3>
+        <h3 class="download">
           Download Full{" "}
           <a id="resume-link" href={resume}>
             Resume

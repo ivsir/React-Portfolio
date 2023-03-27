@@ -6,11 +6,12 @@ import editor from "../../images/texteditor.jpeg";
 import tech from "../../images/tech.jpeg";
 import cyberpunk from "../../images/cyberpunk.jpeg";
 import github from "../../images/githublogo.png";
+// import Particle from './Particle';
 
 export default function Portfolio() {
   return (
     <main>
-      <section class="row justify-center">
+      <section id ="portfolio" class="row justify-center">
         <div class="card-column">
           <div class="wrapper">
             <img src={cyberpunk} class="portfolio-image" alt="Cyberpunk" />
